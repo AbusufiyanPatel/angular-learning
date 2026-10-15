@@ -14,5 +14,5 @@ export class App {
       return a+b;
   }
 
-  valAdd = this.add(10,100);
+  // valAdd = this.add(10,100);
 }
