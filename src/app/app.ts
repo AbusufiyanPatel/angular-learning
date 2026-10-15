@@ -8,5 +8,11 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('my-app');
+  protected readonly title = signal("Hello My dear angular");
+
+  add(a: number, b:number) {
+      return a+b;
+  }
+
+  valAdd = this.add(10,100);
 }
