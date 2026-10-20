@@ -1,0 +1,31 @@
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+
+}
+
+button {
+    height: 40px;
+    width: 310px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(94, 207, 94);
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+    /* transition: transform 0.2s ease-in-out; */
+}
+
+button :hover{
+    transform: scale(2.1);
+    background-color:rgb(24, 151, 24) ;
+}

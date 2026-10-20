@@ -1,0 +1,23 @@
+
+input{
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(74, 71, 71);
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+
+}
+
+button{
+    height: 40px;
+    width: 310px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    cursor: pointer;
+}
